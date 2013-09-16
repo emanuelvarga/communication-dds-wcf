@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "communication-dds-wcf", "src\communication-dds-wcf.csproj", "{9A797E5D-B7CE-464B-97C1-2A3816373CCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{69FD8B00-3A8C-41FE-AF97-A775AA694561}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3706F3A3-B564-4B1E-8061-BC6B276BEE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "communication-dds-api", "lib\communication-dds-api\src\communication-dds-api.csproj", "{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A797E5D-B7CE-464B-97C1-2A3816373CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A797E5D-B7CE-464B-97C1-2A3816373CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A797E5D-B7CE-464B-97C1-2A3816373CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A797E5D-B7CE-464B-97C1-2A3816373CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A797E5D-B7CE-464B-97C1-2A3816373CCC} = {3706F3A3-B564-4B1E-8061-BC6B276BEE88}
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D} = {69FD8B00-3A8C-41FE-AF97-A775AA694561}
+	EndGlobalSection
+EndGlobal

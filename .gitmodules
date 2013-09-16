@@ -1,0 +1,3 @@
+[submodule "lib/communication-dds-api"]
+	path = lib/communication-dds-api
+	url = git://github.com/emanuelvarga/communication-dds-api.git
